@@ -243,25 +243,18 @@ header.active .menulink {
   border-bottom: 0.5rem solid #E0AE46;
 }
 
-/* line 147, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
+main.active {
+  padding-right: 5rem;
+}
+
+/* line 152, ../sass/screen.scss */
 .main {
   padding: 3rem 1rem 3rem 3rem;
   transition: all 0.3s ease-in-out;
 }
-/* line 151, ../sass/screen.scss */
-.main.active {
-  padding-right: 8rem;
-}
-/* line 154, ../sass/screen.scss */
-.main.active h1 {
-  font-size: 4.2rem;
-}
-/* line 157, ../sass/screen.scss */
-.main.active h1 + span {
-  font-size: 2rem;
-}
 
-/* line 165, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .logo {
   width: 3.6rem;
   height: 3.6rem;
@@ -276,43 +269,44 @@ header.active .menulink {
   font-weight: bold;
 }
 
-/* line 178, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .maincenter {
   display: flex;
   flex-direction: column-reverse;
   gap: 3rem;
 }
 
-/* line 183, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 .maincenter-left img {
   width: 100%;
 }
 
-/* line 186, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .maincenter-right {
   padding-top: 6rem;
+  width: 100%;
 }
 
-/* line 189, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .maincenter-right h1 {
-  font-size: 4.8rem;
+  font-size: 4.2rem;
   margin-bottom: 2rem;
   font-weight: bold;
   color: #585CD3;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .maincenter-right h1 span {
   color: #E0AE46;
 }
 
-/* line 200, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .maincenter-right h1 + span {
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin-left: 1rem;
 }
 
-/* line 204, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .description {
   width: 100%;
   padding: 0 1rem;
@@ -321,7 +315,7 @@ header.active .menulink {
   margin-top: 4rem;
 }
 
-/* line 211, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .medias-sociaux {
   display: flex;
   justify-content: center;
@@ -329,7 +323,7 @@ header.active .menulink {
   margin-top: 3rem;
   font-size: 1.8rem;
 }
-/* line 217, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .medias-sociaux a {
   padding: 0.75rem;
   width: 3.6rem;
@@ -343,49 +337,46 @@ header.active .menulink {
   color: #232554;
   transition: all 0.3s ease-in-out;
 }
-/* line 230, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .medias-sociaux a:hover {
   background: #585CD3;
   color: #ffffff;
 }
 
 /* Section Competences */
-/* line 237, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 .main-competences {
   background: #fdfdfd;
 }
 
-/* line 240, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .competences {
   padding: 3rem;
 }
-/* line 243, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .competences h2 {
   font-size: 4.8rem;
   color: #585CD3;
   margin-bottom: 6rem;
 }
 
-/* line 249, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .competences-left {
   margin-bottom: 3rem;
 }
-/* line 251, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .competences-left p {
   line-height: 2;
 }
 
 /* Box competences */
-/* line 256, ../sass/screen.scss */
-.main-competences {
+/* line 262, ../sass/screen.scss */
+.main-competences,
+.main-education {
   transition: all 0.3s ease-in-out;
 }
-/* line 258, ../sass/screen.scss */
-.main-competences.active {
-  padding-right: 8rem;
-}
 
-/* line 262, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .competences-group-box-competence {
   border: 0.1rem solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.05);
@@ -394,7 +385,7 @@ header.active .menulink {
   border-radius: 1rem;
   margin-bottom: 3rem;
 }
-/* line 269, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .competences-group-box-competence strong {
   font-size: 2rem;
   font-weight: normal;
@@ -403,20 +394,20 @@ header.active .menulink {
   margin-top: 3rem;
   display: block;
 }
-/* line 278, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .competences-group-box-competence p {
   margin-top: 2rem;
   line-height: 1.5;
 }
 
-/* line 283, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .skills {
   display: flex;
   flex-wrap: wrap;
   gap: 0 1rem;
 }
 
-/* line 289, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 .technologies {
   border: 0.1rem solid rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
@@ -429,12 +420,12 @@ header.active .menulink {
   margin-bottom: 1rem;
 }
 
-/* line 300, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .technologies {
   color: #ffffff;
 }
 
-/* line 308, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .technologies-xd,
 .technologies-wordpress,
 .technologies-html,
@@ -446,7 +437,7 @@ header.active .menulink {
   color: #585CD3;
 }
 
-/* line 320, ../sass/screen.scss */
+/* line 327, ../sass/screen.scss */
 .technologies-css,
 .technologies-bootstrap,
 .technologies-figma,
@@ -456,14 +447,230 @@ header.active .menulink {
   background: #E0AE46;
 }
 
-/* line 328, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 .rocket {
   display: none;
 }
 
+/* line 338, ../sass/screen.scss */
+.educations {
+  padding: 3rem;
+}
+/* line 341, ../sass/screen.scss */
+.educations h2 {
+  font-size: 4.8rem;
+  color: #585CD3;
+  margin-bottom: 6rem;
+}
+
+/* line 347, ../sass/screen.scss */
+.education-center {
+  display: flex;
+  gap: 2rem;
+}
+
+/* line 352, ../sass/screen.scss */
+.education-left .timeline {
+  border: 1rem;
+  width: 2rem;
+  background: #fdfdfd;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+  border-radius: 999rem;
+  position: relative;
+}
+/* line 361, ../sass/screen.scss */
+.education-left .timeline::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2.5rem;
+  height: calc(100% - 3rem);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.8rem;
+  border-radius: 999rem;
+  background: #f0f0f0;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+/* line 375, ../sass/screen.scss */
+.education-left .timeline::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2.5rem;
+  height: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.8rem;
+  border-radius: 999rem;
+  background: #E0AE46;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+/* line 390, ../sass/screen.scss */
+.education-left .timeline-bar {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 0.6rem solid #585CD3;
+  background: #ffffff;
+}
+
+/* line 403, ../sass/screen.scss */
+.education-right-group {
+  display: flex;
+  gap: 1rem;
+}
+
+/* line 407, ../sass/screen.scss */
+.education-right-little-box {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.05);
+}
+
+/* line 416, ../sass/screen.scss */
+.education-right-group p {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 1rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+}
+/* line 429, ../sass/screen.scss */
+.education-right-group p > *:nth-child(1) {
+  margin-bottom: 1rem;
+}
+/* line 432, ../sass/screen.scss */
+.education-right-group p > * {
+  display: block;
+  line-height: 1.5;
+}
+/* line 436, ../sass/screen.scss */
+.education-right-group p b {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #232554;
+}
+
+/* line 443, ../sass/screen.scss */
+.anime .timeline-bar:nth-child(2) {
+  animation: animetimebar1 1s ease-in-out forwards;
+}
+
+/* line 446, ../sass/screen.scss */
+.anime .timeline-bar:nth-child(3) {
+  animation: animetimebar2 1s 1s ease-in-out forwards;
+}
+
+/* line 449, ../sass/screen.scss */
+.anime .timeline-bar:nth-child(4) {
+  animation: animetimebar3 1s 2s ease-in-out forwards;
+}
+
+/* line 452, ../sass/screen.scss */
+.anime .timeline::before {
+  animation: animetimeline1 3.1s ease-in-out forwards;
+}
+
+@keyframes animetimebar1 {
+  from {
+    top: 0;
+  }
+  to {
+    top: 26%;
+  }
+}
+@keyframes animetimebar2 {
+  from {
+    top: 0;
+  }
+  to {
+    top: 52%;
+  }
+}
+@keyframes animetimebar3 {
+  from {
+    top: 0;
+  }
+  to {
+    top: 76%;
+  }
+}
+@keyframes animetimeline1 {
+  from {
+    height: 0;
+  }
+  to {
+    height: calc(100% - 3rem);
+  }
+}
+/* line 491, ../sass/screen.scss */
+.education-right .education-right-little-box {
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 497, ../sass/screen.scss */
+.education-right .education-right-little-box.active span {
+  width: 90%;
+  height: 90%;
+  background: #585CD3;
+}
+
+/* line 502, ../sass/screen.scss */
+.education-right .education-right-little-box .span2,
+.education-right .education-right-little-box .span3,
+.education-right .education-right-little-box .span4 {
+  width: 0;
+  height: 0;
+  background: #585CD3;
+}
+
+/* line 509, ../sass/screen.scss */
+.education-right-little-box .span2 {
+  animation: animelittlebox 1s ease-in-out 2.5s forwards;
+}
+
+/* line 512, ../sass/screen.scss */
+.education-right-little-box .span3 {
+  animation: animelittlebox 1s ease-in-out 3s forwards;
+}
+
+/* line 515, ../sass/screen.scss */
+.education-right-little-box .span4 {
+  animation: animelittlebox 1s ease-in-out 3.5s forwards;
+}
+
+@keyframes animelittlebox {
+  from {
+    width: 0;
+    height: 0;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+  }
+}
 /** Pour les ecrans de taille minimale 576px */
 @media screen and (min-width: 576px) {
-  /* line 333, ../sass/screen.scss */
+  /* line 533, ../sass/screen.scss */
   .menuburger {
     background: transparent;
     position: static;
@@ -471,114 +678,158 @@ header.active .menulink {
     right: 0;
   }
 
-  /* line 339, ../sass/screen.scss */
+  /* line 539, ../sass/screen.scss */
+  main {
+    padding-right: 5rem;
+  }
+
+  /* line 542, ../sass/screen.scss */
   header {
     right: 0;
   }
 
-  /* line 342, ../sass/screen.scss */
+  /* line 545, ../sass/screen.scss */
   .menulink {
     opacity: 1;
   }
 
-  /* line 345, ../sass/screen.scss */
-  .main,
-  .competences {
-    padding-right: 8rem;
-  }
-
-  /* line 349, ../sass/screen.scss */
+  /* line 549, ../sass/screen.scss */
   .maincenter-right h1 {
     font-size: 7.2rem;
   }
 
-  /* line 352, ../sass/screen.scss */
+  /* line 552, ../sass/screen.scss */
   .maincenter-right h1 + span {
     font-size: 3.2rem;
-    margin-left: 1.5rem;
   }
 
-  /* line 356, ../sass/screen.scss */
+  /* line 556, ../sass/screen.scss */
   .description {
     font-size: 1.8rem;
   }
+
+  /* line 559, ../sass/screen.scss */
+  .education-right {
+    width: 100%;
+  }
+
+  /* line 562, ../sass/screen.scss */
+  .education-right-group p {
+    padding: 1rem 2rem;
+  }
 }
-/** Pour les ecrans de taille minimale 576px */
+/** Pour les ecrans de taille minimale 768px */
 @media screen and (min-width: 768px) {
-  /* line 362, ../sass/screen.scss */
+  /* line 568, ../sass/screen.scss */
   .competences-right {
     display: flex;
     gap: 0.9rem;
   }
-  /* line 363, ../sass/screen.scss */
+  /* line 569, ../sass/screen.scss */
   .competences-right .competences-group-box-competence {
     height: 28rem;
   }
-  /* line 369, ../sass/screen.scss */
+  /* line 575, ../sass/screen.scss */
   .competences-right > * {
     width: calc(33% - 0.6rem);
   }
 
-  /* line 374, ../sass/screen.scss */
+  /* line 580, ../sass/screen.scss */
   .competences-group:nth-child(2) {
     margin-top: 6rem;
   }
 
-  /* line 377, ../sass/screen.scss */
+  /* line 583, ../sass/screen.scss */
   .competences-group-box-competence strong {
     font-size: 1.8rem;
+  }
+
+  /* line 588, ../sass/screen.scss */
+  .anime .education-right-group:nth-child(2) {
+    animation: animeeducation1 1s 2s ease-in-out forwards;
+  }
+
+  /* line 593, ../sass/screen.scss */
+  .anime .education-right-group:nth-child(3) {
+    animation: animeeducation2 1s 2.5s ease-in-out forwards;
+  }
+
+  /* line 598, ../sass/screen.scss */
+  .anime .education-right-group:nth-child(4) {
+    animation: animeeducation3 1s 3s ease-in-out forwards;
+  }
+
+  /* Education */
+  @keyframes animeeducation1 {
+    from {
+      margin-top: 0;
+    }
+    to {
+      margin-left: 5rem;
+    }
+  }
+  @keyframes animeeducation2 {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 10rem;
+    }
+  }
+  @keyframes animeeducation3 {
+    from {
+      margin-left: 0;
+    }
+    to {
+      margin-left: 15rem;
+    }
   }
 }
 /** Pour les ecrans de taille minimale 990px */
 @media screen and (min-width: 990px) {
-  /* line 383, ../sass/screen.scss */
-  .main {
-    padding-right: 8rem;
-  }
-
-  /* line 386, ../sass/screen.scss */
+  /* line 633, ../sass/screen.scss */
   .maincenter {
     flex-direction: row;
     gap: 1rem;
   }
 
-  /* line 390, ../sass/screen.scss */
+  /* line 637, ../sass/screen.scss */
   .maincenter-right h1 {
     font-size: 8rem;
   }
 
-  /* line 393, ../sass/screen.scss */
+  /* line 640, ../sass/screen.scss */
   .description {
     font-size: 1.8rem;
     margin-left: 1.5rem;
   }
 
-  /* line 397, ../sass/screen.scss */
+  /* line 644, ../sass/screen.scss */
   .maincenter {
     width: 100%;
   }
 
-  /* line 400, ../sass/screen.scss */
+  /* line 647, ../sass/screen.scss */
   .maincenter-left {
     width: calc(50% - 3rem);
   }
-  /* line 402, ../sass/screen.scss */
+  /* line 649, ../sass/screen.scss */
   .maincenter-left img {
     margin-top: 6rem;
     width: 100%;
   }
 
-  /* line 407, ../sass/screen.scss */
+  /* line 654, ../sass/screen.scss */
   .maincenter-right {
     width: 50%;
   }
 
-  /* line 410, ../sass/screen.scss */
+  /* line 657, ../sass/screen.scss */
   .maincenter-left img {
     width: 100%;
   }
 
-  /* line 413, ../sass/screen.scss */
+  /* line 660, ../sass/screen.scss */
   .medias-sociaux {
     justify-content: flex-start;
     margin-left: 1.5rem;
@@ -586,85 +837,219 @@ header.active .menulink {
 }
 /**/
 @media screen and (min-width: 1200px) {
-  /* line 421, ../sass/screen.scss */
+  /* line 668, ../sass/screen.scss */
   .competences-left .rocket {
     display: block;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 427, ../sass/screen.scss */
+  /* line 674, ../sass/screen.scss */
   .competences-left .rocket img {
     width: 100%;
   }
 
-  /* line 432, ../sass/screen.scss */
+  /* line 679, ../sass/screen.scss */
   .competences-center {
     display: flex;
     gap: 1rem;
   }
 
-  /* line 436, ../sass/screen.scss */
+  /* line 683, ../sass/screen.scss */
   .competences-left {
     width: 35%;
     flex-shrink: 0;
   }
 
-  /* line 440, ../sass/screen.scss */
+  /* line 687, ../sass/screen.scss */
   .competences-right {
     width: calc(65% -1rem);
   }
 
-  /* line 443, ../sass/screen.scss */
+  /* line 690, ../sass/screen.scss */
   .competences-group-box .competences-group-box-competence {
     height: 26rem;
+  }
+
+  /* line 693, ../sass/screen.scss */
+  .education-center {
+    flex-direction: column;
+  }
+
+  /* line 697, ../sass/screen.scss */
+  .education-left .timeline {
+    width: calc(100% - 3rem);
+    height: 2rem;
+  }
+  /* line 701, ../sass/screen.scss */
+  .education-left .timeline-bar {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  /* line 707, ../sass/screen.scss */
+  .education-right {
+    display: flex;
+    gap: 3rem;
+  }
+  /* line 710, ../sass/screen.scss */
+  .education-right .education-right-group {
+    width: calc(25% - 3rem);
+  }
+
+  /* line 714, ../sass/screen.scss */
+  .education-right-group {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  /* line 720, ../sass/screen.scss */
+  .education-right-group:nth-child(2) {
+    margin-left: 0;
+  }
+  /* line 724, ../sass/screen.scss */
+  .education-right-group:nth-child(3) {
+    margin-left: 0;
+  }
+  /* line 728, ../sass/screen.scss */
+  .education-right-group:nth-child(4) {
+    margin-left: 0;
+  }
+  /* line 733, ../sass/screen.scss */
+  .education-right-group p {
+    min-height: 15rem;
+  }
+
+  /* line 738, ../sass/screen.scss */
+  .anime .education-right-little-box:nth-child(2):before {
+    animation: animelittlebox 1s 2.5s forwards;
+  }
+
+  @keyframes animetimebar1 {
+    from {
+      left: 0;
+    }
+    to {
+      left: 25%;
+    }
+  }
+  @keyframes animetimebar2 {
+    from {
+      left: 0;
+    }
+    to {
+      left: 51%;
+    }
+  }
+  @keyframes animetimebar3 {
+    from {
+      left: 0;
+    }
+    to {
+      left: 76%;
+    }
+  }
+  @keyframes animetimeline1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(100% - 3rem);
+    }
+  }
+  @keyframes animeeducation1 {
+    from {
+      margin-top: 0;
+    }
+    to {
+      margin-top: 5rem;
+    }
+  }
+  @keyframes animeeducation2 {
+    from {
+      margin-top: 0;
+    }
+    to {
+      margin-top: 10rem;
+    }
+  }
+  @keyframes animeeducation3 {
+    from {
+      margin-top: 0;
+    }
+    to {
+      margin-top: 15rem;
+    }
+  }
+  /* line 801, ../sass/screen.scss */
+  .education-left .timeline::after {
+    content: '';
+    left: 2.5rem;
+    width: calc(100% - 3rem);
+    top: 50%;
+    transform: translateY(-50%);
+    height: 0.8rem;
+  }
+
+  /* line 809, ../sass/screen.scss */
+  .education-center .education-left .timeline::before {
+    content: '';
+    left: 2.5rem;
+    width: 0;
+    background: #E0AE46;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 0.8rem;
   }
 }
 /** Pour les ecrans de taille minimale 1200px */
 @media screen and (min-width: 1400px) {
-  /* line 449, ../sass/screen.scss */
+  /* line 821, ../sass/screen.scss */
   main {
     width: 100%;
   }
 
-  /* line 452, ../sass/screen.scss */
+  /* line 824, ../sass/screen.scss */
   .main,
-  .competences {
+  .competences,
+  .education {
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 460, ../sass/screen.scss */
+  /* line 834, ../sass/screen.scss */
   .maincenter-left {
     width: calc(55% - 3rem);
   }
-  /* line 462, ../sass/screen.scss */
+  /* line 836, ../sass/screen.scss */
   .maincenter-left img {
     margin-top: 0;
   }
 
-  /* line 466, ../sass/screen.scss */
+  /* line 840, ../sass/screen.scss */
   .maincenter-right {
     width: 45%;
   }
-  /* line 469, ../sass/screen.scss */
+  /* line 843, ../sass/screen.scss */
   .maincenter-right h1 {
     font-size: 10rem;
   }
 
-  /* line 473, ../sass/screen.scss */
+  /* line 847, ../sass/screen.scss */
   .description {
     font-size: 2rem;
     text-align: justify;
     padding: 0;
   }
 
-  /* line 478, ../sass/screen.scss */
+  /* line 852, ../sass/screen.scss */
   .medias-sociaux {
     font-size: 2.2rem;
   }
-  /* line 480, ../sass/screen.scss */
+  /* line 854, ../sass/screen.scss */
   .medias-sociaux a {
     padding: 1rem;
     width: 4.2rem;
