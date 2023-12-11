@@ -52,6 +52,17 @@ $(window).on('scroll', function() {
   }
 });
 
+/** Hover */
+
+$('.image-project').off('mouseenter').off('mouseleave')
+
+  .on('mouseenter', function() { 
+    $(this).addClass('active');
+  })
+  .on('mouseleave', function() { 
+    $(this).removeClass('active');
+  });
+
 
 
 });
